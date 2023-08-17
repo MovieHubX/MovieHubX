@@ -33,3 +33,4 @@ Welcome to MovieHubX. Dive into movies and have a blast.
 
 *Movies shared here, no rule-breaking. No files stored, just links to others. Oh, by the way, it uses some random, kinda crappy API for streaming. Not sure if I'll update it.*
 "# MovieHubXTest" 
+"# MovieHubXTest" 
