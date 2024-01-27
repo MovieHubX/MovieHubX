@@ -6,7 +6,7 @@ const apiConfig = {
   w200Image: (imgPath) => `https://image.tmdb.org/t/p/w200/${imgPath}`,
   w185Image: (imgPath) => `https://image.tmdb.org/t/p/w185/${imgPath}`,
   embedMovie: (id) => `https://vidsrc.xyz/embed/movie?tmdb=${id}`,
-  embedTV: (id) => `https://vidsrc.xyz/embed/tv?tmdb=${id}&season=1&episode=1`,
+  embedTV: (id, season, episode) => `https://vidsrc.xyz/embed/tv?tmdb=${id}&season=${season}&episode=${episode}`,
   // embedMovie: (id) => `https://2embed.org/embed/${id}`,
   // embedEpisode: (id, season, episode) =>
   // https://vidsrc.xyz/embed/movie?tmdb=385687/
