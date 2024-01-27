@@ -6,6 +6,6 @@ const apiConfig = {
   w200Image: (imgPath) => `https://image.tmdb.org/t/p/w200/${imgPath}`,
   w185Image: (imgPath) => `https://image.tmdb.org/t/p/w185/${imgPath}`,
   embedMovie: (id) => `https://vidsrc.xyz/embed/movie?tmdb=${id}`,
-  embedTV: (id, season, episode) => `https://vidsrc.xyz/embed/tv?tmdb=${id}&season=${season}&episode=${episode}`,
+  embedTV: (id) => `https://vidsrc.xyz/embed/tv?tmdb=${id}`,
 };
 export default apiConfig;
