@@ -59,13 +59,6 @@ const Detail = () =>{
                    
                     <div className='cast'>
                         <div className=''>
-                            <h1 className='mb-1'>Casts</h1>
-                            <CastList id={data.id} />
-                        </div>
-                    </div>
-                   
-                    <div className='cast'>
-                        <div className=''>
                             <h1 className='mb-1'>Similar</h1>
                             <Movies category={category} type='similar' id={data.id} />
                         </div>
