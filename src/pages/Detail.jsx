@@ -4,7 +4,6 @@ import { PlayCircleFilled } from '@ant-design/icons';
 import apiType from '../api/apiType';
 import apiConfig from '../api/apiConfig';
 import './detail.scss';
-import CastList from '../components/CastList/CastList';
 import Movies from '../components/movies/Movies'
 
 
