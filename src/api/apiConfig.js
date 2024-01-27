@@ -5,11 +5,13 @@ const apiConfig = {
   w500Image: (imgPath) => `https://image.tmdb.org/t/p/w500/${imgPath}`,
   w200Image: (imgPath) => `https://image.tmdb.org/t/p/w200/${imgPath}`,
   w185Image: (imgPath) => `https://image.tmdb.org/t/p/w185/${imgPath}`,
-  embedMovie: (id) => `https://multiembed.mov/directstream.php?video_id=${id}&tmdb=1`,
+  embedMovie: (id) => `https://vidsrc.xyz/embed/movie?tmdb=${id}`,
   embedTV: (id, season, episode) =>
-    `https://multiembed.mov/directstream.php?video_id=${id}&tmdb=1&s=${season}&e=${episode}`,
+    `https://vidsrc.xyz/embed/tv?tmdb=${id}&season=${season}&episode=${episode}`,
   // embedMovie: (id) => `https://2embed.org/embed/${id}`,
   // embedEpisode: (id, season, episode) =>
+  // https://vidsrc.xyz/embed/movie?tmdb=385687/
+  // https://vidsrc.xyz/embed/tv?tmdb=1399&season=1&episode=1
   //   `https://2embed.org/embed/series?tmdb=${id}&sea=${season}&epi=${episode}`,
 };
 export default apiConfig;
